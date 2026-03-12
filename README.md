@@ -23,19 +23,6 @@ cd TestBAS
 npm install
 npx playwright install
 ```
-
-### 3. Cấu hình biến môi trường
-Copy file `.env.example` thành `.env`:
-```bash
-cp .env.example .env
-```
-Mở file `.env` và điền thông tin tài khoản Google của bạn:
-```env
-USER_EMAIL=your_email@gmail.com
-USER_PASSWORD=your_password
-```
-*Lưu ý: File `.env` đã được cấu hình trong `.gitignore` để tránh bị đẩy lên Git.*
-
 ---
 
 ## Cách chạy Test
