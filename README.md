@@ -41,12 +41,12 @@ npx playwright test tests/full-flow-test.spec.ts --project=chromium --headed
 ```
 *Luồng này bao gồm: Tạo dự án -> Tạo feature -> Điền PRD -> Chờ Duyệt.*
 
-**Chạy riêng module Quản lý dự án:**
+**Chạy riêng module Quản lý dự án (Tạo dự án mới + mô tả):**
 ```bash
 npx playwright test tests/prj_management/TC-PROJ-01.spec.ts --project=chromium --headed
 ```
 
-**Chạy riêng module Quản lý feature:**
+**Chạy riêng module Quản lý feature (Tạo feature mới + điền PRD):**
 ```bash
 npx playwright test tests/prj_management/TC-PROJ-02.spec.ts --project=chromium --headed
 ```
