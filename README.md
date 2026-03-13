@@ -18,7 +18,7 @@ Dự án này chứa bộ test tự động sử dụng Playwright để kiểm 
 
 ### 2. Clone và cài đặt thư viện
 ```bash
-git clone <repository_url>
+git clone https://github.com/tuongntc2108/Auto-test-BAS.git
 cd TestBAS
 npm install
 npx playwright install
